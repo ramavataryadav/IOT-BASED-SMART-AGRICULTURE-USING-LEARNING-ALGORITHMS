@@ -21,8 +21,8 @@
 #define HREF_GPIO_NUM    23
 #define PCLK_GPIO_NUM    22
 
-const char* ssid = "your_SSID";
-const char* password = "your_PASSWORD";
+const char* ssid = "Redmi Note 8 Pro";
+const char* password = "12345678";
 
 void startCameraServer();
 
