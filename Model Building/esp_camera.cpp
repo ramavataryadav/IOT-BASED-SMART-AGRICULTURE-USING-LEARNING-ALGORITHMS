@@ -1,6 +1,7 @@
 
 #include "esp_camera.h"
 #include <WiFi.h>
+#include <camera_web_server.cpp>
 
 // Camera configuration (adjust for your board)
 #define PWDN_GPIO_NUM    -1
