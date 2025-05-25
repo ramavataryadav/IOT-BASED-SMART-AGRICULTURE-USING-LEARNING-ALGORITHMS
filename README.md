@@ -7,27 +7,24 @@ This project is a smart agriculture system that integrates automatic irrigation 
 
 ## System Components
 
-### 1. Sensors
-- **Soil Moisture Sensor**: Monitors the moisture level in the soil.
-- **Humidity Sensor**: Measures atmospheric humidity.
-- **Temperature Sensor**: Tracks ambient temperature.
-- **Water Level Sensor**: Checks the water level in the irrigation tank.
+### 1.📦 Components Used
+
+- ESP8266 NodeMCU
+- ESP32 Controller
+- Arduino Board
+- DHT11 Temperature & Humidity Sensor
+- Soil Moisture Sensor
+- Relay Module (to control motor/pump)
+- Water Pump or Motor
+- Jumper Wires
+- Power Source
 
 ### 2. Camera
 - **OV2640 Camera Module**: Captures images for animal detection.
 
-### 3. Controllers
-- **Arduino Board**: Collects sensor data and controls actuators via relays.
-- **ESP32 Controller**: Interfaces with the camera module and processes image data.
-- **NodeMCU (ESP8266)**: Sends sensor data to the cloud and mobile device.
-
-### 4. Actuators
-- **Motor Pump**: Supplies water for irrigation.
-- **Sprinkler Operating System**: Distributes water over the crops.
-- **Relay Modules**: Used to switch the motor and sprinkler systems on/off based on control logic.
-
 ### 5. Software & Cloud
 - **Thingspeak Cloud**: Receives and stores sensor data for monitoring and visualization.
+- **Twilio (SMS)**: Use Twilio to send SMS alerts.
 - **Mobile Device Interface**: Allows remote monitoring and alerts.
 - **Multiclass Image Classification Algorithm**: Detects and classifies animals using images captured by the camera.
 
