@@ -61,7 +61,16 @@ This project is a smart agriculture system that integrates automatic irrigation 
 - Real-time animal detection using machine learning.
 - Remote monitoring via mobile device.
 - Cloud-based data storage and analytics (via Thingspeak).
-
+  
+## Requirements
+- Python 3.7 or higher
+- TensorFlow 2.0 or higher
+- Keras
+- NumPy
+- Pandas
+- Matplotlib
+- scikit-learn
+  
 ## Future Enhancements
 
 - Integration with voice-controlled assistants (e.g., Alexa, Google Assistant).
