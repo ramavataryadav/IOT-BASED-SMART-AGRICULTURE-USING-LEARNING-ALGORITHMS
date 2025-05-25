@@ -49,6 +49,12 @@ This project is a smart agriculture system that integrates automatic irrigation 
    - NodeMCU sends data to Thingspeak Cloud.
    - The mobile device retrieves real-time updates from the cloud and animal detection system.
 
+## Data On Thingspeak 
+![Image](https://github.com/user-attachments/assets/2c476826-ee08-4209-bc79-2294c3813151)
+![Image](https://github.com/user-attachments/assets/6bd13da0-50d5-4d06-b154-5f4e218da6bc)
+
+## Animal Detection Output
+![Image](https://github.com/user-attachments/assets/07cbd1fb-c727-4443-84bc-14d791bc15f8)
 ## Features
 
 - Autonomous irrigation control.
@@ -61,14 +67,6 @@ This project is a smart agriculture system that integrates automatic irrigation 
 - Integration with voice-controlled assistants (e.g., Alexa, Google Assistant).
 - Advanced image classification for more accurate animal identification.
 - Weather prediction-based irrigation scheduling.
-
-## Requirements
-
-- Arduino IDE
-- Python (for ML model if offline)
-- ESP32 & ESP8266 libraries
-- Thingspeak API
-- Relay modules and connected actuators
 
 ## License
 
