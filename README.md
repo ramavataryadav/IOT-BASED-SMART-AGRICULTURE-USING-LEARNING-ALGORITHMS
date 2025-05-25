@@ -22,6 +22,8 @@ This project is a smart agriculture system that integrates automatic irrigation 
 ### 2. Camera
 - **OV2640 Camera Module**: Captures images for animal detection.
 
+### 4. Block Diagram:
+
 ### 5. Software & Cloud
 - **Thingspeak Cloud**: Receives and stores sensor data for monitoring and visualization.
 - **Twilio (SMS)**: Use Twilio to send SMS alerts.
