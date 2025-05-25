@@ -24,6 +24,7 @@ This project is a smart agriculture system that integrates automatic irrigation 
 
 ### 4. Block Diagram:
 ![Image](https://github.com/user-attachments/assets/e5730521-2464-4414-9520-1bb952afbf19)
+![Image](https://github.com/user-attachments/assets/aac9384d-3f23-4b5b-a8d7-ddbb6fc21062)
 ### 5. Software & Cloud
 - **Thingspeak Cloud**: Receives and stores sensor data for monitoring and visualization.
 - **Twilio (SMS)**: Use Twilio to send SMS alerts.
